@@ -1,0 +1,35 @@
+# Dataset Information
+
+## Overview
+This project uses a credit card transaction dataset for identifying fraudulent and legitimate transactions using machine learning.
+
+## Dataset Source
+The dataset is commonly available through Kaggle:
+
+- **Dataset:** Credit Card Fraud Detection
+- **Source:** [Kaggle – Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+- **File name:** `creditcard.csv`
+
+Please review the dataset's license and usage terms before redistributing it.
+
+## Dataset Features
+The dataset contains transaction information, including:
+- `Time`: Seconds elapsed between a transaction and the first transaction in the dataset.
+- `V1`–`V28`: Anonymized numerical features produced through Principal Component Analysis (PCA).
+- `Amount`: Transaction amount.
+- `Class`: Target variable indicating whether a transaction is fraudulent.
+
+### Target Variable
+- `0`: Legitimate transaction
+- `1`: Fraudulent transaction
+
+## Setup Instructions
+1. Download `creditcard.csv` from the dataset source.
+2. Place the downloaded file in the project root directory if the notebook expects it there.
+3. Run `Fraud_detection.ipynb` and follow the notebook cells in order.
+
+## Data Availability
+The raw dataset is not included in this repository. Users must download it separately from the source linked above.
+
+## Disclaimer
+This dataset is intended for educational and research purposes. Model predictions should not be used as the sole basis for real-world financial decisions.
